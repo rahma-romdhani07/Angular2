@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <br>
+                <ul class="nav-items">
+                    <li>
+                        <a  routerLink=""> <i class="fa fa-home" ></i> Acceuil</a>
+                    </li>
+                    <li>
+                        <a routerLink="/pgRegistre" ><i class="fa fa-registered" aria-hidden="true"></i> &nbsp; Sign up </a>
+                    </li>
+                    <li>
+                        <a routerLink="/pageLogin"><i class="fa fa-sign-in"></i> &nbsp;  Sign in</a>
+                    </li>
+                </ul>
+                <img src="./assets/images/lineFormRegistre.png" alt="">
+            </nav>
+        </div>
+    </div>
+    <div class="header-container">
+        <div class="wrapper">
+            <header>
+                <div class="hero-image"> 
+                   <img src="./assets/images/FormRegistre.png" height="597px" width="800px" style="margin-left: 20rem; ">  
+                </div>
+                <form action="">
+                <div class="example-container">
+                    <mat-form-field appearance="fill" id="usernameInput">
+                        <input matInput placeholder="Enter your username " [formControl]="email" required >
+                      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill" id="emailInput">
+                        <input matInput placeholder="Enter your Email" [formControl]="email" required >
+                      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill" id="inputPassword">
+                        <input matInput [type]="hide ? 'password' : 'text'"  placeholder="Enter your Password " >
+                        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+                      </mat-form-field>
+                      <mat-form-field appearance="fill" id="confirmPassword"  placeholder="Confirm  your Password " >
+                        <input matInput [type]="hide ? 'password' : 'text'">
+                        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+                      </mat-form-field>
+                      <a  class="btn1" routerLink="/pageLogin"> Registre</a>
+                      <h3 class="txt">Already have an account ? <a   class="btn2" routerLink="/pageLogin">Sign In</a></h3>
+                  
+                  </div>
+                   </form>  
+            </header>
+        </div>
+    </div>
+</body>
+</html>

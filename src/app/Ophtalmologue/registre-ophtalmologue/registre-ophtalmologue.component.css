@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: "Roboto" ,sans-serif;
+   background-color:  #97B8FF;
+height: 698px;}
+    nav ul {
+        display: flex;
+        padding-left: 30rem;
+    }
+    nav img {
+        display: flex;
+        padding-left: 14rem;
+        
+
+    }
+   
+  .nav-items li {
+
+        list-style: none;
+        margin-right: 90px;
+    }
+    .nav-items li a {
+        font-style: normal;
+        font-family: "Roboto" , sans-serif ;
+        font-size: 20px;
+        left: 850px;
+        color: #070707;
+        text-decoration: none;
+        top: 100px;     
+    }
+
+
+ 
+        /* css de formulaire */
+        
+/* css form */
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  #usernameInput{
+      top: -475px;
+      left: 760px;
+      width: 250px;
+  }
+  #emailInput{
+    top: -400px;
+    left: 500px;
+    width: 250px;
+    
+}
+#confirmPassword{
+    top: -250px;
+    left: -15px;
+    width: 250px;
+}
+  #inputPassword{
+    top: -325px;
+    left: 243px;
+    width: 250px;
+  }
+  
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+
+
+
+#btnSignUp{
+width: 470px;
+height: 20px;
+left:790px;
+margin-top:50px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 115.69%;
+/* or 28px */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-decoration: none;
+color: #3F3D56;
+}
+#btnSignUp1{
+    width: 470px;
+    height: 20px;
+    margin-left: 650px;
+    top: -370px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 115.69%;
+    /* or 28px */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #000000;
+    }
+  .wrapper{
+      top:200px ;
+  }
+  #btn{
+    left: 0%;
+    top: -350px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px;
+    /* or 38px */
+    color: #FFFFFF;
+    background: #283E93;
+  }
+  .wrapper .txt{
+      
+    position: absolute;
+    width: 393.73px;
+    height: 17.01px;
+    left: 700px;
+    top: 543px;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 115.69%;
+    /* or 24px */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #000000;
+      
+ }
+  .wrapper .btn2{    
+    color: #3F3D56;
+    font-weight: bold;
+    font-size: 17.5px;
+      
+ }
+ .wrapper .btn1{
+    width: 150.34px;
+    height: 43px;
+    position: absolute; 
+    font-weight: bold;
+    font-size: 17px;
+    left: 780px;
+    top: 490px;
+    text-decoration: none;
+    color: #f5f1f1;
+    background: #283E93;
+    padding:  10px 40px;
+    margin-left: 40px;
+
+    display: inline-block;
+    transition: 300ms; }
+    header .btn1:hover{
+        transform: translateX(-10px); 
+        transform: translateX(10px); 
+         }

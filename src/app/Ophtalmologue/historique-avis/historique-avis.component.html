@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Welcome</title>
+</head>
+<body>
+    
+    <div class="nav-container">
+        <div class="wrapper">
+            <br>
+            <nav>
+                <div class="img-nav">
+                    <img src="./assets/images/navbar.png" >
+                </div>
+                <ul class="nav-items">
+                      <img src="./assets/images/menu 1.png" id="menu">
+                        <img src="./assets/images/Group 22.png" alt="">
+                        <a href="#"  id="nom">Bienvenue Nom-Ophtalmologue</a>
+                        <li>
+                            <div class="budgecard">
+
+                            <a  class="notifications"  routerLink="/accueil"><i class="fa fa-bell" aria-hidden="true"></i>  <span class="badge">2</span> &nbsp;Accueil </a></div>
+                        </li>
+                        <img src="./assets/images/Line.svg" id="line1">
+
+                        <li>
+                            <a routerLink="/historique"  id="list"><i class="fa fa-history" aria-hidden="true" ></i> Historique  des avis</a>
+                            </li>
+                        <li>
+                            <img src="./assets/images/Line.svg" id="line2">
+                            
+                            <a id="logout" routerLink=""><i class="fa fa-sign-out" aria-hidden="true"></i> Déconnexion</a>
+                            <!--<img src="./assets/images/logout.png" id="iconeLogout">-->
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="header-container">
+        <div class="wrapper">
+            <header>
+                <div class="containerSearch">
+      
+                    <div class="search-box">
+                      <div class="search-icon"><i class="fa fa-search search-icon"></i></div>
+                      <form action="" class="search-form">
+                        <input type="text" placeholder="Search ..." id="search" autocomplete="off" >
+                      </form>
+                      <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+                       xml:space="preserve">
+                          <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+                          <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+                        </svg>
+                      <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
+                    </div>
+                
+                  </div>
+                  <br><br><br><br>
+                   <div class="p1">
+                       <img src="./assets/images/homme.png" width="55px" height="55px">
+                       <a href=""> Nom de Patient 1</a>
+                       <h3>2022/01/12</h3>
+                       <!--  <a id="btnR" routerLink="/repondreAvis">Repondre</a>-->
+                       <img src="./assets/images/iconeOk.png" id="iconeOk">
+                      <a id ="profileP" routerLink="/infosPatient"> <i class="fa fa-star" aria-hidden="true" ></i> &nbsp; Profile</a>
+                      <a id ="patient" routerLink="/consultation"><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Consultations</a>
+                   </div>
+                   <div class="p2">
+                    <img src="./assets/images/pfemme.png" width="55px" height="55px">
+                    <a href=""> Nom de Patient 2</a>
+                    <h3>2022/01/12</h3>
+                    <img src="./assets/images/iconeOk.png" id="iconeOk">
+                   <a id ="profileP" routerLink="/infosPatient"> <i class="fa fa-star" aria-hidden="true" ></i> &nbsp; Profile</a>
+                    <a id ="patient" routerLink="/consultation"><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Consultations</a>
+                </div>
+               
+                
+            </header></div>
+    </div>
+</body>
+</html>
